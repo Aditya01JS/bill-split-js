@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex; 
+    color: antiquewhite;
+    background-color: rgb(235 152 7);
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+main{
+    background-color: rgb(0 146 150);
+    border-radius: 5px;
+    padding: 2rem;
+    width: 80%;
+    box-shadow: inset 0px 0px 11px 4px;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-decoration: underline;
+    font-family: "lobster";
+    margin: 2rem;
+   font-size: 8vw;
+   color: rgb(240, 222, 199);
+   transition: all 2s ease; 
+}
+h1:hover{
+    font-size: 30px;
+    color: #ff6600;
+}
+input{
+    padding: 0.5rem;
+    border: none;
+    border-radius: .6rem;
+    margin: .4rem;
+    width: 100%;
+}
+
+.tally{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    width: auto;
+}
+
+
+
+
+
+
+  
