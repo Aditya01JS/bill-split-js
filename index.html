@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    
   </head>
   <body>
     <main>
       <header><h1>Bill Splitter</h1></header>
       <section>
-        <div>
+        <div class="forms">
           <input id="amount" placeholder="Enter the amount" type="number" />
         </div>
-        <div>
+        <div class="forms">
           <input
             id="friends"
             placeholder="Enter the no of friends"
             type="number"
           />
         </div>
-        <div class="tally">
+        <!-- <div class="ttmm" placeholder="Results"></div> -->
+        <div id="myDiv" class="placeholder">
+          Click here to enter text...
+        </div>
+          
+        <div onclick="calc()" class="tally">
           <button>Calculate</button>
         </div>
+
       </section>
     </main>
-  
+    <script src="./bill.js"></script>
   </body>
 </html>
